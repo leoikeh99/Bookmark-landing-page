@@ -26,16 +26,17 @@ a {
 }
 
 .mobile-nav {
-  height: 100vh;
+  height: 0;
+  overflow: hidden;
   padding: 30px 0px;
   color: #fff;
   text-align: center;
   position: fixed;
   width: 100%;
-  z-index: 2;
   transform: translate3d(0, -100%, 0);
   display: none;
   box-sizing: border-box;
+  z-index: 2;
   @include easeIn;
 
   &.show {
@@ -126,7 +127,8 @@ nav {
   }
 
   li {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    letter-spacing: 4px;
     display: inline-block;
     padding: 0px 15px;
     cursor: pointer;
@@ -275,6 +277,7 @@ h6 {
     padding: 25px 0px;
     margin: 1rem 0 1rem 0;
     li {
+      position: relative;
       display: inline-block;
       padding: 20px;
       cursor: pointer;
@@ -558,6 +561,7 @@ footer {
     margin-left: 35px;
     font-size: 0.8rem;
     cursor: pointer;
+    letter-spacing: 4px;
   }
   li:hover {
     color: $Soft-Red;
