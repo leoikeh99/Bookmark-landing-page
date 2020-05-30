@@ -1,0 +1,14 @@
+{
+  "name": "bookmarkpage",
+  "version": "1.0.0",
+  "description": "Bookmark Landing Page",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Wazza",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
